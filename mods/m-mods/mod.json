@@ -1,0 +1,13 @@
+{
+  "place": "none",
+  "title": "Mod Manager (mobile)",
+  "overlay": {
+    "kind": "dialog",
+    "width": 0.96,
+    "height": 0.9
+  },
+  "cloned_from": {
+    "name": "mod-manager",
+    "version": "0.1.12"
+  }
+}

@@ -1,0 +1,116 @@
+{
+  "id": "root",
+  "type": "column",
+  "children": [
+    {
+      "id": "m-top",
+      "type": "block",
+      "content": {
+        "mod": "m-top"
+      },
+      "size": {
+        "px": 62
+      }
+    },
+    {
+      "id": "m-body",
+      "type": "stack",
+      "children": [
+        {
+          "id": "term",
+          "type": "block",
+          "content": {
+            "tab": "active",
+            "pane": {
+              "header": {
+                "content": {
+                  "mod": "m-pane"
+                },
+                "reveal": "always",
+                "height": 46,
+                "position": "top"
+              },
+              "background": "background",
+              "border": {
+                "width": 2,
+                "color": "border"
+              },
+              "focus": {
+                "width": 2,
+                "color": "accent"
+              },
+              "radius": 0,
+              "gap": 8
+            }
+          },
+          "background": {
+            "image": "backgrounds/omarchy-retro-82.webp",
+            "fit": "cover"
+          },
+          "padding": 12
+        },
+        {
+          "id": "code",
+          "type": "column",
+          "children": [
+            {
+              "id": "m-seg",
+              "type": "block",
+              "content": {
+                "mod": "m-seg"
+              },
+              "size": {
+                "px": 56
+              }
+            },
+            {
+              "id": "code-body",
+              "type": "stack",
+              "children": [
+                {
+                  "id": "files",
+                  "type": "block",
+                  "content": {
+                    "mod": "m-files"
+                  }
+                },
+                {
+                  "id": "changes",
+                  "type": "block",
+                  "content": {
+                    "mod": "m-changes"
+                  }
+                }
+              ],
+              "active": "files"
+            }
+          ]
+        }
+      ],
+      "active": "term"
+    },
+    {
+      "id": "m-usage",
+      "type": "block",
+      "size": {
+        "px": 78
+      },
+      "content": {
+        "mod": "m-usage"
+      }
+    }
+  ],
+  "background": "chrome",
+  "font": "CaskaydiaCove Nerd Font Mono",
+  "font_size": 14,
+  "terminal_padding": [
+    10,
+    8
+  ],
+  "movable": false,
+  "titlebar": "none",
+  "preview": "layouts/mobile.svg",
+  "terminal_menu": "m-pmenu",
+  "ui_font": "CaskaydiaCove Nerd Font Mono",
+  "terminal_opacity": 1
+}
